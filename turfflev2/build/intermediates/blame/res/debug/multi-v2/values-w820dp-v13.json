@@ -1,0 +1,41 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Bo\\AndroidStudioProjects\\turffle ver2\\turfflev2\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Bo\\AndroidStudioProjects\\turffle ver2\\turfflev2\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Bo\\AndroidStudioProjects\\turffle ver2\\turfflev2\\src\\main\\res\\values-w820dp\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "38",
+                        "endOffsets": "91"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "113",
+                        "endColumns": "38",
+                        "endOffsets": "147"
+                    }
+                }
+            ]
+        }
+    ]
+}

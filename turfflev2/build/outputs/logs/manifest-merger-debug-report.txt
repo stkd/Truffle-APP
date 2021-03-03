@@ -1,0 +1,194 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:39:3-47:14
+	android:grantUriPermissions
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:43:4-38
+	android:authorities
+		INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:41:4-51
+	android:exported
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:42:4-28
+	android:name
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:40:4-58
+manifest
+ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:2:1-50:12
+MERGED from [:usbCameraCommon] C:\Users\Bo\AndroidStudioProjects\turffle ver2\usbCameraCommon\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:1-31:12
+MERGED from [:libuvccamera] C:\Users\Bo\AndroidStudioProjects\turffle ver2\libuvccamera\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:1-33:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\e1006ce602a320ed440c878874319d04\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\b6500ab612f08f477d4006c4b9f76b75\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:mediarouter-v7:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-27.1.1.aar\ac0cf8dd55233fda2314329afd907dc4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\97bdb03b7c934de37c113ae61b503606\AndroidManifest.xml:17:1-22:12
+MERGED from [com.serenegiant:common:2.12.4] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\common-2.12.4.aar\b9b56754af37d1e91f4c21aaac3cadbc\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:preference-v7:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\preference-v7-27.1.1.aar\74fe65f230f7b4d3bdd26d9a97413b70\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\bb22daf0a0dd7ac2f95ca937224059d4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\9918f752a6499a08c2d4242e571c1eb7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fa2207d240f81546f36219e4fde6852c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\90a675054a5a327a7e06c11f460e1faf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\feb815785dcf369ffd8a7760db637be4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:palette-v7:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\palette-v7-27.1.1.aar\c5fdc692f66ee45d7e8c82dee57ab531\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\6562c29c57d299af9bb585fa83778603\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ca93225f46b9bfac5027fc9481d927e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\7d6c1d45ba87e21f46961a77654e60fb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\ad011cbd079f9a2da5559e1f09b14031\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f5d0208e7c7f097424b7b324cc1b2037\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f05387950108a84edaed5c62585fa9a3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\36a0edbdd4a95e16794eae419ea15fa5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a75b5ede45af471ec6cd3bb8c54fc168\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:2:1-50:12
+	package
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:2:1-50:12
+		INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:2:1-50:12
+		INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:5:5-68
+	android:name
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:5:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:6:2-71
+	android:name
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:6:19-68
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:7:5-70
+	android:name
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:8:2-77
+	android:name
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:8:19-75
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:9:2-76
+	android:name
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:9:19-74
+uses-feature#0x00020000
+ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:11:2-75
+	android:glEsVersion
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:11:16-48
+	android:required
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:11:49-72
+application
+ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:13:2-48:16
+	android:supportsRtl
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:17:3-29
+	android:label
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:16:3-35
+	android:icon
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:15:3-34
+	android:allowBackup
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:14:3-29
+	android:theme
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:18:3-47
+activity#niu.bdlab.turfflev2.Welcome
+ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:19:3-27:14
+	android:label
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:21:4-36
+	android:name
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:20:4-27
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:22:4-26:20
+action#android.intent.action.MAIN
+ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:23:5-57
+	android:name
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:23:13-54
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:25:5-65
+	android:name
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:25:15-62
+activity#niu.bdlab.turfflev2.MainActivity
+ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:28:3-38:14
+	android:label
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:31:4-36
+	android:launchMode
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:30:4-35
+	android:name
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:29:4-51
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:32:4-34:20
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:33:5-78
+	android:name
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:33:13-75
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:35:4-37:45
+	android:resource
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:37:5-42
+	android:name
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:36:5-67
+uses-sdk
+INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml
+MERGED from [:usbCameraCommon] C:\Users\Bo\AndroidStudioProjects\turffle ver2\usbCameraCommon\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:5-29:41
+MERGED from [:usbCameraCommon] C:\Users\Bo\AndroidStudioProjects\turffle ver2\usbCameraCommon\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:5-29:41
+MERGED from [:libuvccamera] C:\Users\Bo\AndroidStudioProjects\turffle ver2\libuvccamera\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:5-31:41
+MERGED from [:libuvccamera] C:\Users\Bo\AndroidStudioProjects\turffle ver2\libuvccamera\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:5-31:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\e1006ce602a320ed440c878874319d04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\e1006ce602a320ed440c878874319d04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\b6500ab612f08f477d4006c4b9f76b75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\b6500ab612f08f477d4006c4b9f76b75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:mediarouter-v7:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-27.1.1.aar\ac0cf8dd55233fda2314329afd907dc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:mediarouter-v7:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-27.1.1.aar\ac0cf8dd55233fda2314329afd907dc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\97bdb03b7c934de37c113ae61b503606\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\97bdb03b7c934de37c113ae61b503606\AndroidManifest.xml:20:5-44
+MERGED from [com.serenegiant:common:2.12.4] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\common-2.12.4.aar\b9b56754af37d1e91f4c21aaac3cadbc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.serenegiant:common:2.12.4] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\common-2.12.4.aar\b9b56754af37d1e91f4c21aaac3cadbc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:preference-v7:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\preference-v7-27.1.1.aar\74fe65f230f7b4d3bdd26d9a97413b70\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v7:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\preference-v7-27.1.1.aar\74fe65f230f7b4d3bdd26d9a97413b70\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\bb22daf0a0dd7ac2f95ca937224059d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\bb22daf0a0dd7ac2f95ca937224059d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\9918f752a6499a08c2d4242e571c1eb7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\9918f752a6499a08c2d4242e571c1eb7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fa2207d240f81546f36219e4fde6852c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fa2207d240f81546f36219e4fde6852c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\90a675054a5a327a7e06c11f460e1faf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\90a675054a5a327a7e06c11f460e1faf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\feb815785dcf369ffd8a7760db637be4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\feb815785dcf369ffd8a7760db637be4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\palette-v7-27.1.1.aar\c5fdc692f66ee45d7e8c82dee57ab531\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\palette-v7-27.1.1.aar\c5fdc692f66ee45d7e8c82dee57ab531\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\6562c29c57d299af9bb585fa83778603\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\6562c29c57d299af9bb585fa83778603\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ca93225f46b9bfac5027fc9481d927e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ca93225f46b9bfac5027fc9481d927e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\7d6c1d45ba87e21f46961a77654e60fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\7d6c1d45ba87e21f46961a77654e60fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\ad011cbd079f9a2da5559e1f09b14031\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\ad011cbd079f9a2da5559e1f09b14031\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f5d0208e7c7f097424b7b324cc1b2037\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f5d0208e7c7f097424b7b324cc1b2037\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f05387950108a84edaed5c62585fa9a3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f05387950108a84edaed5c62585fa9a3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\36a0edbdd4a95e16794eae419ea15fa5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\36a0edbdd4a95e16794eae419ea15fa5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a75b5ede45af471ec6cd3bb8c54fc168\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Bo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a75b5ede45af471ec6cd3bb8c54fc168\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:44:3-46:44
+	android:resource
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:46:4-42
+	android:name
+		ADDED from C:\Users\Bo\AndroidStudioProjects\turffle ver2\turfflev2\src\main\AndroidManifest.xml:45:4-54

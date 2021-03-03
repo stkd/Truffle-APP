@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/RelativeLayout1"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ff000000"
+	tools:context="niu.bdlab.turfflev2.MainActivity"
+	tools:ignore="MergeRootFrame">
+
+	<ImageView
+		android:id="@+id/picPreview"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_alignBottom="@+id/camera_view"
+		android:layout_alignLeft="@+id/camera_view"
+		android:layout_alignRight="@+id/camera_view"
+		android:layout_alignTop="@+id/camera_view"
+		android:src="@drawable/shape"/>
+
+	<com.serenegiant.widget.UVCCameraTextureView
+		android:id="@+id/camera_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"/>
+
+	<ImageView
+		android:id="@+id/frame_image"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/camera_view"
+		android:layout_alignLeft="@+id/camera_view"
+		android:layout_alignRight="@+id/camera_view"
+		android:layout_alignTop="@+id/camera_view"
+		android:src="@drawable/border"/>
+
+	<ToggleButton
+		android:id="@+id/camera_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@id/camera_view"
+		android:layout_alignLeft="@id/camera_view"
+		android:background="@drawable/recode_button"
+		android:text="ToggleButton"/>
+
+	<Button
+		android:id="@+id/F_Button"
+		android:layout_width="@dimen/button_size"
+		android:layout_height="@dimen/button_size"
+		android:layout_alignParentBottom="true"
+		android:layout_marginEnd="20dp"
+		android:layout_marginBottom="6dp"
+		android:layout_toStartOf="@+id/capture_button"
+		android:text="@string/F_button" />
+	<android.support.design.widget.FloatingActionButton
+		android:id="@+id/capture_button"
+		android:layout_width="@dimen/button_size"
+		android:layout_height="@dimen/button_size"
+		android:layout_alignBottom="@id/camera_view"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="6dp"
+		android:scaleType="centerCrop"
+		app:backgroundTint="@color/WHITE"
+		app:rippleColor="@color/RED"
+		android:src="@android:drawable/ic_menu_camera" />
+
+	<Button
+		android:id="@+id/B_Button"
+		android:layout_width="@dimen/button_size"
+		android:layout_height="@dimen/button_size"
+		android:layout_alignParentBottom="true"
+		android:layout_marginStart="20dp"
+		android:layout_marginBottom="6dp"
+		android:layout_toEndOf="@+id/capture_button"
+		android:text="@string/B_button" />
+
+	<Button
+		android:id="@+id/S_Button"
+		android:layout_width="@dimen/button_size"
+		android:layout_height="@dimen/button_size"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="49dp"
+		android:text="@string/S_button" />
+
+	<ImageButton
+		android:id="@+id/viewPIC_Button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@id/camera_view"
+		android:layout_alignRight="@id/camera_view"
+		app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+	<RelativeLayout
+		android:id="@+id/tools_layout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@id/camera_view"
+		android:layout_alignRight="@id/camera_view"
+		android:layout_alignTop="@id/camera_view">
+
+		<Button
+			android:id="@+id/brightness_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="@dimen/horizontal_margin_half"
+			android:layout_marginTop="@dimen/vertical_margin"
+			android:background="@drawable/shape"
+			android:text="@string/brightness_button" />
+
+		<Button
+			android:id="@+id/contrast_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="@dimen/horizontal_margin_half"
+			android:layout_marginTop="@dimen/vertical_margin"
+			android:background="@drawable/shape"
+			android:layout_toRightOf="@+id/brightness_button"
+			android:text="@string/contrast_button"/>
+
+		<Button
+			android:id="@+id/resolution_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_marginRight="@dimen/horizontal_margin_half"
+			android:layout_marginTop="@dimen/vertical_margin"
+			android:background="@drawable/shape"
+			android:layout_toRightOf="@+id/contrast_button"
+			android:text="@string/previewSize" />
+		<Button
+			android:id="@+id/BLE_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_marginRight="@dimen/horizontal_margin_half"
+			android:layout_marginTop="@dimen/vertical_margin"
+			android:background="@drawable/shape"
+			android:layout_toRightOf="@+id/resolution_button"
+			android:text="@string/bleconneect" />
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:id="@+id/value_layout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:layout_alignLeft="@id/camera_view"
+		android:layout_alignRight="@id/camera_view"
+		android:background="#22ffffff"
+		android:visibility="invisible">
+
+		<ImageButton
+			android:id="@+id/reset_button"
+			android:layout_width="@dimen/sz_icon_camera_ctrl"
+			android:layout_height="@dimen/sz_icon_camera_ctrl"
+			android:background="@null"
+			android:scaleType="fitXY"
+			android:src="@android:drawable/ic_popup_sync" />
+
+		<SeekBar
+			android:id="@+id/setting_seekbar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:layout_toRightOf="@+id/reset_button"
+			android:max="100"
+			android:progress="50"/>
+	</RelativeLayout>
+
+</RelativeLayout>

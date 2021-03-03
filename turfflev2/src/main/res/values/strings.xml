@@ -1,0 +1,20 @@
+
+<resources>
+	<string name="app_name">turfflev2</string>
+	<string name="contrast_button">contrast</string>
+	<string name="brightness_button">brightness</string>
+    <string name="previewSize">PreviewSize</string>
+    <string name="cancel">Cancel</string>
+    <string name="img">Image</string>
+	<string name="mov">Movie</string>
+    <string name="sensor">Sensor_Device</string>
+    <string name="custom">Custom</string>
+    <string name="sen_select">Select Sensor Device</string>
+    <string name="notchange">Original</string>
+    <string name="bdlab">BDLab</string>
+    <string name="renewTime">"Update Time : "</string>
+    <string name="bleconneect">BLE</string>
+    <string name="F_button">F</string>
+    <string name="B_button">B</string>
+    <string name="S_button">S</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libuvccamera/libuvccamera.iml" filepath="$PROJECT_DIR$/.idea/modules/libuvccamera/libuvccamera.iml" group="turffle ver2/libuvccamera" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/turffle_ver2.iml" filepath="$PROJECT_DIR$/.idea/modules/turffle_ver2.iml" group="turffle_ver2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/turfflev2/turfflev2.iml" filepath="$PROJECT_DIR$/.idea/modules/turfflev2/turfflev2.iml" group="turffle ver2/turfflev2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/usbCameraCommon/usbCameraCommon.iml" filepath="$PROJECT_DIR$/.idea/modules/usbCameraCommon/usbCameraCommon.iml" group="turffle ver2/usbCameraCommon" />
+    </modules>
+  </component>
+</project>

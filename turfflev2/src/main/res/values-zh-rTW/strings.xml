@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">turfflev2</string>
+    <string name="contrast_button">對比度</string>
+    <string name="brightness_button">亮度</string>
+    <string name="previewSize">解析度</string>
+    <string name="cancel">取消</string>
+    <string name="img">圖像</string>
+    <string name="mov">影片</string>
+    <string name="notchange">預設</string>
+    <string name="renewTime">"更新時間 : "</string>
+    <string name="sensor">設備</string>
+    <string name="custom">自訂</string>
+    <string name="sen_select">選擇設備</string>
+    <string name="bdlab">BDLab</string>
+    <string name="F_button">F</string>
+    <string name="B_button">B</string>
+    <string name="bleconneect">藍芽</string>
+    <string name="S_button">S</string>
+</resources>
