@@ -36,6 +36,7 @@ import android.view.View.OnLongClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CompoundButton;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -138,6 +139,7 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 
 	private Button connect,F,B,S;
 	private TextView text;
+	private EditText mrollnumber;
 	private BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
 	private final static int REQUEST_ENABLE_BT = 1;
 	private BluetoothDevice mDevice;
@@ -183,6 +185,8 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 		mToolsLayout.setVisibility(View.INVISIBLE);
 		mValueLayout = findViewById(R.id.value_layout);
 		mValueLayout.setVisibility(View.INVISIBLE);
+		mrollnumber = findViewById(R.id.roll_number);
+		mrollnumber.setVisibility(View.VISIBLE);
 
 		mUSBMonitor = new USBMonitor(this, mOnDeviceConnectListener);
 		mCameraHandler = UVCCameraHandler.createHandler(this, mUVCCameraView,
@@ -346,9 +350,13 @@ public final class MainActivity extends BaseActivity implements CameraDialog.Cam
 				}
 				break;
 			case R.id.S_Button:
-				push("2");
-				push("2");
-				push("0");
+				String roll_number = mrollnumber.getText().toString();
+				Toast.makeText(MainActivity.this,String.valueOf(roll_number.charAt(0))+String.valueOf(roll_number.charAt(1))+String.valueOf(roll_number.charAt(2)),Toast.LENGTH_SHORT).show();
+				if(Integer.parseInt(roll_number)<256 && Integer.parseInt(roll_number)>0){
+					push(String.valueOf(roll_number.charAt(0)));
+					push(String.valueOf(roll_number.charAt(1)));
+					push(String.valueOf(roll_number.charAt(2)));
+				}
 				break;
 			case R.id.reset_button:
 				resetSettings();

@@ -173,6 +173,21 @@
 			android:layout_toRightOf="@+id/reset_button"
 			android:max="100"
 			android:progress="50"/>
+
 	</RelativeLayout>
+
+	<EditText
+		android:id="@+id/roll_number"
+		android:layout_width="80dp"
+		android:layout_height="31dp"
+		android:layout_above="@+id/S_Button"
+		android:layout_alignStart="@+id/S_Button"
+		android:layout_alignParentTop="true"
+		android:layout_marginStart="-16dp"
+		android:layout_marginTop="599dp"
+		android:layout_marginBottom="4dp"
+		android:hint="@string/number"
+		android:textColor="#FF5722"
+		android:visibility="invisible" />
 
 </RelativeLayout>
