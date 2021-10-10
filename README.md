@@ -8,7 +8,9 @@
 
 ###注意事項
 由於有使用到c++，因此需要NDK支援
+
 NDK版本為androidNDK-r13b(16 or 17)
+
 https://dl.google.com/android/repository/android-ndk-r13b-windows-x86_64.zip?utm_source=androiddevtools&utm_medium=website
 
 ### 參考資料
