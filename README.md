@@ -17,6 +17,7 @@ turfflev2/build/outputs/apk/debug
 2. 藍芽的部分請在連線上相機看到畫面後便執行連線，連線完後才能透過拍照按鈕左右兩邊的按鍵控制鏡頭焦距。
 
 以下是基本功能介紹(v1)
+
 ![](https://i.imgur.com/meh35th.png)
 
 ### 注意事項
