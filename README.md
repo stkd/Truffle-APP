@@ -16,6 +16,7 @@ NDK版本為androidNDK-r13b(16 or 17)
 
 https://dl.google.com/android/repository/android-ndk-r13b-windows-x86_64.zip?utm_source=androiddevtools&utm_medium=website
 
-### 參考資料
+### 引用資料
 1. [saki4510t/UVCCamera]https://github.com/saki4510t/UVCCamera
 2. [jiangdongguo/AndroidUSBCamera]https://github.com/jiangdongguo/AndroidUSBCamera
+
